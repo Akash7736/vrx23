@@ -1,0 +1,24 @@
+▶️  Steps for creating a custom wamv configuration
+
+➡️ Step 1
+cd ~/vrx_ws/src/my_wamv
+
+➡️ Step 2
+Create thruster_config.yaml and component_config.yaml files with the required content
+
+➡️ Step 3 
+Run the following command in terminal in the same folder where the above two files are present
+
+"ros2 launch vrx_gazebo generate_wamv.launch.py component_yaml:=`pwd`/component_config.yaml thruster_yaml:=`pwd`/thruster_config.yaml wamv_target:=`pwd`/wamv_target.urdf wamv_locked:=False"
+
+➡️ Step 4
+The previous command will generate 2 xacro files and 1 urdf file
+      1️⃣️ component_config.xacro
+      2️⃣️ thruster_config.xacro
+      
+      3️⃣️ wamv_target.urdf
+
+
+
+
+

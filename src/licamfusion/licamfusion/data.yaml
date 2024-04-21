@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['dock', 'post']
+
+roboflow:
+  workspace: njord-ymbo3
+  project: vrx-ajfer
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/njord-ymbo3/vrx-ajfer/dataset/7

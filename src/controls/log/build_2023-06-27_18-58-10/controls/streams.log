@@ -1,0 +1,53 @@
+[0.991s] Invoking command in '/home/guildstudent/vrx_ws/src/controls': PYTHONPATH=/home/guildstudent/vrx_ws/src/controls/build/controls/prefix_override:/home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/controls build --build-base /home/guildstudent/vrx_ws/src/controls/build/controls/build install --record /home/guildstudent/vrx_ws/src/controls/build/controls/install.log --single-version-externally-managed
+[1.358s] running egg_info
+[1.358s] creating build/controls/controls.egg-info
+[1.359s] writing build/controls/controls.egg-info/PKG-INFO
+[1.359s] writing dependency_links to build/controls/controls.egg-info/dependency_links.txt
+[1.359s] writing entry points to build/controls/controls.egg-info/entry_points.txt
+[1.360s] writing requirements to build/controls/controls.egg-info/requires.txt
+[1.360s] writing top-level names to build/controls/controls.egg-info/top_level.txt
+[1.360s] writing manifest file 'build/controls/controls.egg-info/SOURCES.txt'
+[1.412s] listing git files failed - pretending there aren't any
+[1.413s] reading manifest file 'build/controls/controls.egg-info/SOURCES.txt'
+[1.415s] writing manifest file 'build/controls/controls.egg-info/SOURCES.txt'
+[1.415s] running build
+[1.415s] running build_py
+[1.416s] creating /home/guildstudent/vrx_ws/src/controls/build/controls/build
+[1.416s] creating /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib
+[1.416s] creating /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+[1.416s] copying controls/controller_pwm.py -> /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+[1.416s] copying controls/__init__.py -> /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+[1.416s] copying controls/guidance_los_vo.py -> /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+[1.416s] copying controls/controller_wamv.py -> /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+[1.417s] copying controls/guidance_wamv.py -> /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+[1.417s] copying controls/test.py -> /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+[1.417s] running install
+[1.417s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.418s]   warnings.warn(
+[1.418s] running install_lib
+[1.420s] creating /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+[1.420s] copying /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls/controller_pwm.py -> /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+[1.420s] copying /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls/__init__.py -> /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+[1.420s] copying /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls/guidance_los_vo.py -> /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+[1.420s] copying /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls/controller_wamv.py -> /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+[1.420s] copying /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls/guidance_wamv.py -> /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+[1.421s] copying /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls/test.py -> /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+[1.421s] byte-compiling /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls/controller_pwm.py to controller_pwm.cpython-310.pyc
+[1.423s] byte-compiling /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls/__init__.py to __init__.cpython-310.pyc
+[1.423s] byte-compiling /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls/guidance_los_vo.py to guidance_los_vo.cpython-310.pyc
+[1.425s] byte-compiling /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls/controller_wamv.py to controller_wamv.cpython-310.pyc
+[1.426s] byte-compiling /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls/guidance_wamv.py to guidance_wamv.cpython-310.pyc
+[1.426s] byte-compiling /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls/test.py to test.cpython-310.pyc
+[1.427s] running install_data
+[1.428s] creating /home/guildstudent/vrx_ws/src/controls/install/share/ament_index
+[1.428s] creating /home/guildstudent/vrx_ws/src/controls/install/share/ament_index/resource_index
+[1.428s] creating /home/guildstudent/vrx_ws/src/controls/install/share/ament_index/resource_index/packages
+[1.428s] copying resource/controls -> /home/guildstudent/vrx_ws/src/controls/install/share/ament_index/resource_index/packages
+[1.428s] copying package.xml -> /home/guildstudent/vrx_ws/src/controls/install/share/controls
+[1.428s] running install_egg_info
+[1.430s] Copying build/controls/controls.egg-info to /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls-0.0.0-py3.10.egg-info
+[1.431s] running install_scripts
+[1.465s] Installing controller script to /home/guildstudent/vrx_ws/src/controls/install/lib/controls
+[1.465s] Installing test script to /home/guildstudent/vrx_ws/src/controls/install/lib/controls
+[1.465s] writing list of installed files to '/home/guildstudent/vrx_ws/src/controls/build/controls/install.log'
+[1.509s] Invoked command in '/home/guildstudent/vrx_ws/src/controls' returned '0': PYTHONPATH=/home/guildstudent/vrx_ws/src/controls/build/controls/prefix_override:/home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/controls build --build-base /home/guildstudent/vrx_ws/src/controls/build/controls/build install --record /home/guildstudent/vrx_ws/src/controls/build/controls/install.log --single-version-externally-managed

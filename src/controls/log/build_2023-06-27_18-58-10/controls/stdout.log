@@ -1,0 +1,48 @@
+running egg_info
+creating build/controls/controls.egg-info
+writing build/controls/controls.egg-info/PKG-INFO
+writing dependency_links to build/controls/controls.egg-info/dependency_links.txt
+writing entry points to build/controls/controls.egg-info/entry_points.txt
+writing requirements to build/controls/controls.egg-info/requires.txt
+writing top-level names to build/controls/controls.egg-info/top_level.txt
+writing manifest file 'build/controls/controls.egg-info/SOURCES.txt'
+reading manifest file 'build/controls/controls.egg-info/SOURCES.txt'
+writing manifest file 'build/controls/controls.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/guildstudent/vrx_ws/src/controls/build/controls/build
+creating /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib
+creating /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+copying controls/controller_pwm.py -> /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+copying controls/__init__.py -> /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+copying controls/guidance_los_vo.py -> /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+copying controls/controller_wamv.py -> /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+copying controls/guidance_wamv.py -> /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+copying controls/test.py -> /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+running install
+running install_lib
+creating /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+copying /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls/controller_pwm.py -> /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+copying /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls/__init__.py -> /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+copying /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls/guidance_los_vo.py -> /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+copying /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls/controller_wamv.py -> /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+copying /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls/guidance_wamv.py -> /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+copying /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls/test.py -> /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+byte-compiling /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls/controller_pwm.py to controller_pwm.cpython-310.pyc
+byte-compiling /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls/guidance_los_vo.py to guidance_los_vo.cpython-310.pyc
+byte-compiling /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls/controller_wamv.py to controller_wamv.cpython-310.pyc
+byte-compiling /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls/guidance_wamv.py to guidance_wamv.cpython-310.pyc
+byte-compiling /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls/test.py to test.cpython-310.pyc
+running install_data
+creating /home/guildstudent/vrx_ws/src/controls/install/share/ament_index
+creating /home/guildstudent/vrx_ws/src/controls/install/share/ament_index/resource_index
+creating /home/guildstudent/vrx_ws/src/controls/install/share/ament_index/resource_index/packages
+copying resource/controls -> /home/guildstudent/vrx_ws/src/controls/install/share/ament_index/resource_index/packages
+copying package.xml -> /home/guildstudent/vrx_ws/src/controls/install/share/controls
+running install_egg_info
+Copying build/controls/controls.egg-info to /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /home/guildstudent/vrx_ws/src/controls/install/lib/controls
+Installing test script to /home/guildstudent/vrx_ws/src/controls/install/lib/controls
+writing list of installed files to '/home/guildstudent/vrx_ws/src/controls/build/controls/install.log'

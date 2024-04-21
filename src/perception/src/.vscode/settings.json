@@ -1,0 +1,22 @@
+{
+    "ros.distro": "humble",
+    "files.associations": {
+        "functional": "cpp"
+    },
+    "python.autoComplete.extraPaths": [
+        "/run/user/1000/gvfs/sftp",
+        "host=10.21.139.45,user=guildstudent/home/guildstudent/vrx_ws/install/local/lib/python3.10/dist-packages",
+        "/run/user/1000/gvfs/sftp",
+        "host=10.21.139.45,user=guildstudent/home/guildstudent/vrx_ws/install/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/run/user/1000/gvfs/sftp",
+        "host=10.21.139.45,user=guildstudent/home/guildstudent/vrx_ws/install/local/lib/python3.10/dist-packages",
+        "/run/user/1000/gvfs/sftp",
+        "host=10.21.139.45,user=guildstudent/home/guildstudent/vrx_ws/install/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

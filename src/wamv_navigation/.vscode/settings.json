@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/guildstudent/vrx_ws/install/wamv_navigation/lib/python3.10/site-packages",
+        "/home/guildstudent/vrx_ws/install/vrx_gz/local/lib/python3.10/dist-packages",
+        "/home/guildstudent/vrx_ws/install/vrx_gazebo/local/lib/python3.10/dist-packages",
+        "/home/guildstudent/vrx_ws/install/controls/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/guildstudent/vrx_ws/install/wamv_navigation/lib/python3.10/site-packages",
+        "/home/guildstudent/vrx_ws/install/vrx_gz/local/lib/python3.10/dist-packages",
+        "/home/guildstudent/vrx_ws/install/vrx_gazebo/local/lib/python3.10/dist-packages",
+        "/home/guildstudent/vrx_ws/install/controls/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

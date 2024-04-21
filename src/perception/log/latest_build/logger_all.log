@@ -1,0 +1,103 @@
+[0.134s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.134s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x782e7b18a440>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x782e7b140460>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x782e7b140460>>)
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.171s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/guildstudent/akash_ws/src/perception'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'perception'
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.211s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/guildstudent/akash_ws/src/perception/build/perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/guildstudent/akash_ws/src/perception/install/perception', 'merge_install': False, 'path': '/home/guildstudent/akash_ws/src/perception', 'symlink_install': False, 'test_result_base': None}
+[0.250s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.252s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/guildstudent/akash_ws/src/perception' with build type 'ament_cmake'
+[0.252s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/guildstudent/akash_ws/src/perception'
+[0.254s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/guildstudent/akash_ws/src/perception/build/perception': CMAKE_PREFIX_PATH=/opt/ros/humble /home/guildstudent/.local/bin/cmake --build /home/guildstudent/akash_ws/src/perception/build/perception -- -j24 -l24
+[3.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/guildstudent/akash_ws/src/perception/build/perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/guildstudent/.local/bin/cmake --build /home/guildstudent/akash_ws/src/perception/build/perception -- -j24 -l24
+[3.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/guildstudent/akash_ws/src/perception/build/perception': CMAKE_PREFIX_PATH=/opt/ros/humble /home/guildstudent/.local/bin/cmake --install /home/guildstudent/akash_ws/src/perception/build/perception
+[3.830s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception)
+[3.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/guildstudent/akash_ws/src/perception/build/perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/guildstudent/.local/bin/cmake --install /home/guildstudent/akash_ws/src/perception/build/perception
+[3.837s] Level 1:colcon.colcon_core.environment:checking '/home/guildstudent/akash_ws/src/perception/install/perception' for CMake module files
+[3.839s] Level 1:colcon.colcon_core.environment:checking '/home/guildstudent/akash_ws/src/perception/install/perception' for CMake config files
+[3.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception', 'cmake_prefix_path')
+[3.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/hook/cmake_prefix_path.ps1'
+[3.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/hook/cmake_prefix_path.dsv'
+[3.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/hook/cmake_prefix_path.sh'
+[3.846s] Level 1:colcon.colcon_core.environment:checking '/home/guildstudent/akash_ws/src/perception/install/perception/lib'
+[3.847s] Level 1:colcon.colcon_core.environment:checking '/home/guildstudent/akash_ws/src/perception/install/perception/bin'
+[3.847s] Level 1:colcon.colcon_core.environment:checking '/home/guildstudent/akash_ws/src/perception/install/perception/lib/pkgconfig/perception.pc'
+[3.847s] Level 1:colcon.colcon_core.environment:checking '/home/guildstudent/akash_ws/src/perception/install/perception/lib/python3.10/site-packages'
+[3.848s] Level 1:colcon.colcon_core.environment:checking '/home/guildstudent/akash_ws/src/perception/install/perception/bin'
+[3.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/package.ps1'
+[3.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/package.dsv'
+[3.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/package.sh'
+[3.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/package.bash'
+[3.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/package.zsh'
+[3.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/guildstudent/akash_ws/src/perception/install/perception/share/colcon-core/packages/perception)
+[3.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception)
+[3.973s] Level 1:colcon.colcon_core.environment:checking '/home/guildstudent/akash_ws/src/perception/install/perception' for CMake module files
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/home/guildstudent/akash_ws/src/perception/install/perception' for CMake config files
+[3.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception', 'cmake_prefix_path')
+[3.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/hook/cmake_prefix_path.ps1'
+[3.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/hook/cmake_prefix_path.dsv'
+[3.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/hook/cmake_prefix_path.sh'
+[3.979s] Level 1:colcon.colcon_core.environment:checking '/home/guildstudent/akash_ws/src/perception/install/perception/lib'
+[3.979s] Level 1:colcon.colcon_core.environment:checking '/home/guildstudent/akash_ws/src/perception/install/perception/bin'
+[3.980s] Level 1:colcon.colcon_core.environment:checking '/home/guildstudent/akash_ws/src/perception/install/perception/lib/pkgconfig/perception.pc'
+[3.980s] Level 1:colcon.colcon_core.environment:checking '/home/guildstudent/akash_ws/src/perception/install/perception/lib/python3.10/site-packages'
+[3.981s] Level 1:colcon.colcon_core.environment:checking '/home/guildstudent/akash_ws/src/perception/install/perception/bin'
+[3.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/package.ps1'
+[3.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/package.dsv'
+[3.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/package.sh'
+[3.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/package.bash'
+[3.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/guildstudent/akash_ws/src/perception/install/perception/share/perception/package.zsh'
+[3.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/guildstudent/akash_ws/src/perception/install/perception/share/colcon-core/packages/perception)
+[3.988s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.989s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.989s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.989s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.996s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.996s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.996s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.010s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.011s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/guildstudent/akash_ws/src/perception/install/local_setup.ps1'
+[4.013s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/guildstudent/akash_ws/src/perception/install/_local_setup_util_ps1.py'
+[4.017s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/guildstudent/akash_ws/src/perception/install/setup.ps1'
+[4.020s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/guildstudent/akash_ws/src/perception/install/local_setup.sh'
+[4.021s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/guildstudent/akash_ws/src/perception/install/_local_setup_util_sh.py'
+[4.023s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/guildstudent/akash_ws/src/perception/install/setup.sh'
+[4.025s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/guildstudent/akash_ws/src/perception/install/local_setup.bash'
+[4.027s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/guildstudent/akash_ws/src/perception/install/setup.bash'
+[4.029s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/guildstudent/akash_ws/src/perception/install/local_setup.zsh'
+[4.030s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/guildstudent/akash_ws/src/perception/install/setup.zsh'

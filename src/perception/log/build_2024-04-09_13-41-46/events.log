@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000301] (perception) JobQueued: {'identifier': 'perception', 'dependencies': OrderedDict()}
+[0.000347] (perception) JobStarted: {'identifier': 'perception'}
+[0.009262] (perception) JobProgress: {'identifier': 'perception', 'progress': 'cmake'}
+[0.010214] (perception) JobProgress: {'identifier': 'perception', 'progress': 'build'}
+[0.011155] (perception) Command: {'cmd': ['/home/guildstudent/.local/bin/cmake', '--build', '/home/guildstudent/akash_ws/src/perception/build/perception', '--', '-j24', '-l24'], 'cwd': '/home/guildstudent/akash_ws/src/perception/build/perception', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'guildstudent'), ('MATHEMATICA_HOME', '/home/guildstudent/Wolfram/Mathematica/13.2'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/guildstudent'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/guildstudent/akash_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '3112'), ('SYSTEMD_EXEC_PID', '3384'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8472'), ('_colcon_cd_root', '/opt/ros/humble/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'guildstudent'), ('JOURNAL_STREAM', '8:50020'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'guildstudent'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/guildstudent/miniconda3/condabin:/opt/ros/humble/bin:/home/guildstudent/MATLAB/R2023a/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/guildstudent/.juliaup/bin:/home/guildstudent/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mav-lab-invento:@/tmp/.ICE-unix/3355,unix/mav-lab-invento:/tmp/.ICE-unix/3355'), ('INVOCATION_ID', '0eca3136acf44c5292525c66d876efaf'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/guildstudent/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d7983d55-782b-431d-84b3-fd9ede23bfcb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/guildstudent/akash_ws/src/perception/build/perception'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/guildstudent/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.075116] (perception) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099152] (-) TimerEvent: {}
+[0.199646] (-) TimerEvent: {}
+[0.200532] (perception) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.259078] (perception) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.263290] (perception) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.273027] (perception) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.291718] (perception) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.299796] (-) TimerEvent: {}
+[0.318122] (perception) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399905] (-) TimerEvent: {}
+[0.413847] (perception) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.415947] (perception) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500028] (-) TimerEvent: {}
+[0.600463] (-) TimerEvent: {}
+[0.636417] (perception) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700581] (-) TimerEvent: {}
+[0.801040] (-) TimerEvent: {}
+[0.865843] (perception) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.901149] (-) TimerEvent: {}
+[1.001558] (-) TimerEvent: {}
+[1.101988] (-) TimerEvent: {}
+[1.202460] (-) TimerEvent: {}
+[1.205147] (perception) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.221135] (perception) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.268091] (perception) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.302579] (-) TimerEvent: {}
+[1.403031] (-) TimerEvent: {}
+[1.503334] (-) TimerEvent: {}
+[1.603696] (-) TimerEvent: {}
+[1.704110] (-) TimerEvent: {}
+[1.804656] (-) TimerEvent: {}
+[1.823904] (perception) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.834631] (perception) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.835215] (perception) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.904784] (-) TimerEvent: {}
+[2.005231] (-) TimerEvent: {}
+[2.090189] (perception) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.098244] (perception) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.105336] (-) TimerEvent: {}
+[2.105812] (perception) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.205475] (-) TimerEvent: {}
+[2.305997] (-) TimerEvent: {}
+[2.347105] (perception) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.406165] (-) TimerEvent: {}
+[2.506653] (-) TimerEvent: {}
+[2.594827] (perception) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.606820] (-) TimerEvent: {}
+[2.707298] (-) TimerEvent: {}
+[2.807798] (-) TimerEvent: {}
+[2.834395] (perception) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.834861] (perception) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.835180] (perception) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.835582] (perception) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.835994] (perception) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.836509] (perception) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.836935] (perception) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.837298] (perception) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.837925] (perception) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.839301] (perception) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.839658] (perception) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.840335] (perception) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.840840] (perception) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.841337] (perception) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.841789] (perception) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.842776] (perception) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.843768] (perception) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.844454] (perception) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.845014] (perception) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.845435] (perception) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.846333] (perception) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.846680] (perception) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[2.847005] (perception) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.847338] (perception) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.847798] (perception) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.907986] (-) TimerEvent: {}
+[2.951733] (perception) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.952159] (perception) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.952392] (perception) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.954708] (perception) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.959766] (perception) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.962593] (perception) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.982031] (perception) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.982367] (perception) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.984852] (perception) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.008187] (-) TimerEvent: {}
+[3.108598] (-) TimerEvent: {}
+[3.209022] (-) TimerEvent: {}
+[3.238780] (perception) StdoutLine: {'line': b'-- Configuring done (3.2s)\n'}
+[3.309137] (-) TimerEvent: {}
+[3.376276] (perception) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[3.382817] (perception) StdoutLine: {'line': b'-- Build files have been written to: /home/guildstudent/akash_ws/src/perception/build/perception\n'}
+[3.409278] (-) TimerEvent: {}
+[3.440371] (perception) StdoutLine: {'line': b'[ 16%] Built target talker\n'}
+[3.443556] (perception) StdoutLine: {'line': b'[ 33%] Built target listener\n'}
+[3.452266] (perception) StdoutLine: {'line': b'[ 50%] Built target cpp_code\n'}
+[3.462173] (perception) StdoutLine: {'line': b'[ 66%] Built target voxelros\n'}
+[3.465517] (perception) StdoutLine: {'line': b'[ 83%] Built target lidarcluster\n'}
+[3.466026] (perception) StdoutLine: {'line': b'[100%] Built target clusterros\n'}
+[3.479499] (perception) CommandEnded: {'returncode': 0}
+[3.509369] (-) TimerEvent: {}
+[3.578905] (perception) JobProgress: {'identifier': 'perception', 'progress': 'install'}
+[3.609501] (-) TimerEvent: {}
+[3.629107] (perception) Command: {'cmd': ['/home/guildstudent/.local/bin/cmake', '--install', '/home/guildstudent/akash_ws/src/perception/build/perception'], 'cwd': '/home/guildstudent/akash_ws/src/perception/build/perception', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'guildstudent'), ('MATHEMATICA_HOME', '/home/guildstudent/Wolfram/Mathematica/13.2'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/guildstudent'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/guildstudent/akash_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '3112'), ('SYSTEMD_EXEC_PID', '3384'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8472'), ('_colcon_cd_root', '/opt/ros/humble/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'guildstudent'), ('JOURNAL_STREAM', '8:50020'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'guildstudent'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/guildstudent/miniconda3/condabin:/opt/ros/humble/bin:/home/guildstudent/MATLAB/R2023a/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/guildstudent/.juliaup/bin:/home/guildstudent/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mav-lab-invento:@/tmp/.ICE-unix/3355,unix/mav-lab-invento:/tmp/.ICE-unix/3355'), ('INVOCATION_ID', '0eca3136acf44c5292525c66d876efaf'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/guildstudent/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d7983d55-782b-431d-84b3-fd9ede23bfcb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/guildstudent/akash_ws/src/perception/build/perception'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/guildstudent/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.675365] (perception) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.675889] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/share/ament_index/resource_index/package_run_dependencies/perception\n'}
+[3.676007] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/share/ament_index/resource_index/parent_prefix_path/perception\n'}
+[3.676118] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/environment/ament_prefix_path.sh\n'}
+[3.676262] (perception) StdoutLine: {'line': b'-- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/environment/ament_prefix_path.dsv\n'}
+[3.676442] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/environment/path.sh\n'}
+[3.676564] (perception) StdoutLine: {'line': b'-- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/environment/path.dsv\n'}
+[3.676629] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/local_setup.bash\n'}
+[3.676697] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/local_setup.sh\n'}
+[3.676811] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/local_setup.zsh\n'}
+[3.676961] (perception) StdoutLine: {'line': b'-- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/local_setup.dsv\n'}
+[3.677058] (perception) StdoutLine: {'line': b'-- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/package.dsv\n'}
+[3.677163] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/share/ament_index/resource_index/packages/perception\n'}
+[3.677258] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.677314] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/cmake/perceptionConfig.cmake\n'}
+[3.677368] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/cmake/perceptionConfig-version.cmake\n'}
+[3.677422] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/package.xml\n'}
+[3.677477] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/talker\n'}
+[3.677712] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/listener\n'}
+[3.678240] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/voxelros\n'}
+[3.678794] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/lidarcluster\n'}
+[3.679352] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/clusterros\n'}
+[3.679881] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/cpp_code\n'}
+[3.686347] (perception) CommandEnded: {'returncode': 0}
+[3.709623] (-) TimerEvent: {}
+[3.805281] (perception) JobEnded: {'identifier': 'perception', 'rc': 0}
+[3.806302] (-) EventReactorShutdown: {}

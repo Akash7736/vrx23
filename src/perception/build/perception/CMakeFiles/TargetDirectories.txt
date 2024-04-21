@@ -1,0 +1,15 @@
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/uninstall.dir
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/perception_uninstall.dir
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/cpp_code.dir
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/talker.dir
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/listener.dir
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/voxelros.dir
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/clusterros.dir
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/lidarcluster.dir
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/test.dir
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/edit_cache.dir
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/rebuild_cache.dir
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/list_install_components.dir
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/install.dir
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/install/local.dir
+/home/guildstudent/akash_ws/src/perception/build/perception/CMakeFiles/install/strip.dir

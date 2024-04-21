@@ -1,0 +1,28 @@
+[1.004s] Invoking command in '/home/guildstudent/vrx_ws/src/controls': PYTHONPATH=/home/guildstudent/vrx_ws/src/controls/build/controls/prefix_override:/home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/controls build --build-base /home/guildstudent/vrx_ws/src/controls/build/controls/build install --record /home/guildstudent/vrx_ws/src/controls/build/controls/install.log --single-version-externally-managed
+[1.469s] running egg_info
+[1.470s] writing build/controls/controls.egg-info/PKG-INFO
+[1.470s] writing dependency_links to build/controls/controls.egg-info/dependency_links.txt
+[1.471s] writing entry points to build/controls/controls.egg-info/entry_points.txt
+[1.471s] writing requirements to build/controls/controls.egg-info/requires.txt
+[1.471s] writing top-level names to build/controls/controls.egg-info/top_level.txt
+[1.523s] listing git files failed - pretending there aren't any
+[1.525s] reading manifest file 'build/controls/controls.egg-info/SOURCES.txt'
+[1.526s] writing manifest file 'build/controls/controls.egg-info/SOURCES.txt'
+[1.526s] running build
+[1.526s] running build_py
+[1.526s] copying controls/test.py -> /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls
+[1.527s] running install
+[1.527s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.527s]   warnings.warn(
+[1.527s] running install_lib
+[1.529s] copying /home/guildstudent/vrx_ws/src/controls/build/controls/build/lib/controls/test.py -> /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls
+[1.529s] byte-compiling /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls/test.py to test.cpython-310.pyc
+[1.530s] running install_data
+[1.531s] running install_egg_info
+[1.531s] removing '/home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls-0.0.0-py3.10.egg-info' (and everything under it)
+[1.532s] Copying build/controls/controls.egg-info to /home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages/controls-0.0.0-py3.10.egg-info
+[1.533s] running install_scripts
+[1.560s] Installing controller script to /home/guildstudent/vrx_ws/src/controls/install/lib/controls
+[1.560s] Installing tester script to /home/guildstudent/vrx_ws/src/controls/install/lib/controls
+[1.560s] writing list of installed files to '/home/guildstudent/vrx_ws/src/controls/build/controls/install.log'
+[1.599s] Invoked command in '/home/guildstudent/vrx_ws/src/controls' returned '0': PYTHONPATH=/home/guildstudent/vrx_ws/src/controls/build/controls/prefix_override:/home/guildstudent/vrx_ws/src/controls/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/controls build --build-base /home/guildstudent/vrx_ws/src/controls/build/controls/build install --record /home/guildstudent/vrx_ws/src/controls/build/controls/install.log --single-version-externally-managed

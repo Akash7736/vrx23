@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="wam-v-thrusters">
+  <xacro:include filename="$(find wamv_description)/urdf/thrusters/engine.xacro" />
+      <xacro:include filename="$(find wamv_gazebo)/urdf/thruster_layouts/wamv_gazebo_thruster_config.xacro" />
+</robot>

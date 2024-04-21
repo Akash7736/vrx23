@@ -1,0 +1,4 @@
+[console_scripts]
+controller = controls.controller_wamv:main
+tester = controls.test:main
+

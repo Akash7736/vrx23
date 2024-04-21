@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['black_pole', 'blue_pole', 'green_pole', 'red_pole', 'yellow_pole']
+
+roboflow:
+  workspace: aritra-d48pv
+  project: vrx_post
+  version: 5
+  license: Private
+  url: https://app.roboflow.com/aritra-d48pv/vrx_post/5

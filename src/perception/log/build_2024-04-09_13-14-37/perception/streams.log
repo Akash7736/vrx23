@@ -1,0 +1,197 @@
+[0.022s] Invoking command in '/home/guildstudent/akash_ws/src/perception/build/perception': CMAKE_PREFIX_PATH=/opt/ros/humble /home/guildstudent/.local/bin/cmake /home/guildstudent/akash_ws/src/perception -DCMAKE_INSTALL_PREFIX=/home/guildstudent/akash_ws/src/perception/install/perception
+[0.700s] -- The C compiler identification is GNU 11.4.0
+[0.812s] -- The CXX compiler identification is GNU 11.4.0
+[0.847s] -- Detecting C compiler ABI info
+[1.038s] -- Detecting C compiler ABI info - done
+[1.055s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.056s] -- Detecting C compile features
+[1.058s] -- Detecting C compile features - done
+[1.068s] -- Detecting CXX compiler ABI info
+[1.169s] -- Detecting CXX compiler ABI info - done
+[1.208s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.209s] -- Detecting CXX compile features
+[1.210s] -- Detecting CXX compile features - done
+[1.219s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.721s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.854s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.918s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.925s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.937s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.958s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.986s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.082s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.085s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.230s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.273s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.343s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.359s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.474s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.476s] -- Found Threads: TRUE  
+[2.752s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.155s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.176s] -- Checking for module 'eigen3'
+[3.191s] --   Found eigen3, version 3.4.0
+[3.231s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.231s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.306s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[3.336s] -- Checking for module 'flann'
+[3.355s] --   Found flann, version 1.9.1
+[3.412s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.412s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.513s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[3.528s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[3.746s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[3.746s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[3.751s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[3.785s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+[3.837s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[3.925s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[4.096s] -- Found X11: /usr/include   
+[4.097s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[4.188s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[4.188s] -- Looking for gethostbyname
+[4.279s] -- Looking for gethostbyname - found
+[4.280s] -- Looking for connect
+[4.386s] -- Looking for connect - found
+[4.386s] -- Looking for remove
+[4.468s] -- Looking for remove - found
+[4.469s] -- Looking for shmat
+[4.554s] -- Looking for shmat - found
+[4.554s] -- Looking for IceConnectionNumber in ICE
+[4.642s] -- Looking for IceConnectionNumber in ICE - found
+[4.791s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[4.795s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[4.805s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[4.810s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[4.842s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[4.856s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[4.871s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[4.888s] -- Found utf8cpp: /usr/include/utf8cpp  
+[5.054s] -- Checking for module 'libusb-1.0'
+[5.072s] --   Found libusb-1.0, version 1.0.25
+[5.121s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[5.123s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[5.123s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.199s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[5.200s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.200s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[5.470s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.479s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.486s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.740s] -- Found Qhull version 8.0.2
+[5.996s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.247s] -- looking for PCL_COMMON
+[6.248s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[6.249s] -- looking for PCL_KDTREE
+[6.250s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[6.251s] -- looking for PCL_OCTREE
+[6.252s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[6.252s] -- looking for PCL_SEARCH
+[6.253s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[6.254s] -- looking for PCL_SAMPLE_CONSENSUS
+[6.255s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[6.255s] -- looking for PCL_FILTERS
+[6.257s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[6.257s] -- looking for PCL_2D
+[6.257s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[6.257s] -- looking for PCL_GEOMETRY
+[6.258s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[6.258s] -- looking for PCL_IO
+[6.259s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[6.259s] -- looking for PCL_FEATURES
+[6.261s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[6.261s] -- looking for PCL_ML
+[6.263s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[6.263s] -- looking for PCL_SEGMENTATION
+[6.264s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[6.264s] -- looking for PCL_VISUALIZATION
+[6.266s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[6.266s] -- looking for PCL_SURFACE
+[6.268s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[6.268s] -- looking for PCL_REGISTRATION
+[6.270s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[6.270s] -- looking for PCL_KEYPOINTS
+[6.271s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[6.271s] -- looking for PCL_TRACKING
+[6.273s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[6.273s] -- looking for PCL_RECOGNITION
+[6.275s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[6.275s] -- looking for PCL_STEREO
+[6.276s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[6.277s] -- looking for PCL_APPS
+[6.278s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[6.279s] -- looking for PCL_IN_HAND_SCANNER
+[6.279s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[6.279s] -- looking for PCL_MODELER
+[6.279s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[6.280s] -- looking for PCL_POINT_CLOUD_EDITOR
+[6.280s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[6.280s] -- looking for PCL_OUTOFCORE
+[6.281s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[6.282s] -- looking for PCL_PEOPLE
+[6.283s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[6.284s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[6.401s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.402s] -- Configured cppcheck include dirs: 
+[6.402s] -- Configured cppcheck exclude dirs and/or files: 
+[6.403s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.406s] -- Added test 'lint_cmake' to check CMake code style
+[6.407s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.416s] -- Added test 'uncrustify' to check C / C++ code style
+[6.416s] -- Configured uncrustify additional arguments: 
+[6.418s] -- Added test 'xmllint' to check XML markup files
+[6.680s] -- Configuring done (6.6s)
+[6.977s] -- Generating done (0.3s)
+[6.981s] -- Build files have been written to: /home/guildstudent/akash_ws/src/perception/build/perception
+[7.014s] Invoked command in '/home/guildstudent/akash_ws/src/perception/build/perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/guildstudent/.local/bin/cmake /home/guildstudent/akash_ws/src/perception -DCMAKE_INSTALL_PREFIX=/home/guildstudent/akash_ws/src/perception/install/perception
+[7.018s] Invoking command in '/home/guildstudent/akash_ws/src/perception/build/perception': CMAKE_PREFIX_PATH=/opt/ros/humble /home/guildstudent/.local/bin/cmake --build /home/guildstudent/akash_ws/src/perception/build/perception -- -j24 -l24
+[7.094s] [  8%] [32mBuilding CXX object CMakeFiles/cpp_code.dir/src/testnode.cpp.o[0m
+[7.094s] [ 16%] [32mBuilding CXX object CMakeFiles/talker.dir/src/testpub.cpp.o[0m
+[7.096s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/testsub.cpp.o[0m
+[7.096s] [ 33%] [32mBuilding CXX object CMakeFiles/voxelros.dir/src/voxelros.cpp.o[0m
+[7.096s] [ 41%] [32mBuilding CXX object CMakeFiles/clusterros.dir/src/clusterros.cpp.o[0m
+[7.097s] [ 50%] [32mBuilding CXX object CMakeFiles/lidarcluster.dir/src/lidarcluster.cpp.o[0m
+[11.920s] [ 58%] [32m[1mLinking CXX executable talker[0m
+[12.026s] [ 66%] [32m[1mLinking CXX executable cpp_code[0m
+[12.237s] [ 66%] Built target talker
+[14.339s] [ 66%] Built target cpp_code
+[15.803s] [ 75%] [32m[1mLinking CXX executable listener[0m
+[16.222s] [ 75%] Built target listener
+[20.622s] [ 83%] [32m[1mLinking CXX executable voxelros[0m
+[21.652s] [ 83%] Built target voxelros
+[23.036s] [ 91%] [32m[1mLinking CXX executable lidarcluster[0m
+[23.291s] [100%] [32m[1mLinking CXX executable clusterros[0m
+[26.033s] [100%] Built target lidarcluster
+[26.198s] [100%] Built target clusterros
+[26.213s] Invoked command in '/home/guildstudent/akash_ws/src/perception/build/perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/guildstudent/.local/bin/cmake --build /home/guildstudent/akash_ws/src/perception/build/perception -- -j24 -l24
+[26.368s] Invoking command in '/home/guildstudent/akash_ws/src/perception/build/perception': CMAKE_PREFIX_PATH=/opt/ros/humble /home/guildstudent/.local/bin/cmake --install /home/guildstudent/akash_ws/src/perception/build/perception
+[26.413s] -- Install configuration: ""
+[26.413s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/ament_index/resource_index/package_run_dependencies/perception
+[26.414s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/ament_index/resource_index/parent_prefix_path/perception
+[26.414s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/environment/ament_prefix_path.sh
+[26.414s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/environment/ament_prefix_path.dsv
+[26.414s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/environment/path.sh
+[26.414s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/environment/path.dsv
+[26.414s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/local_setup.bash
+[26.415s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/local_setup.sh
+[26.415s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/local_setup.zsh
+[26.415s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/local_setup.dsv
+[26.415s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/package.dsv
+[26.415s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/ament_index/resource_index/packages/perception
+[26.416s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.416s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/cmake/perceptionConfig.cmake
+[26.416s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/cmake/perceptionConfig-version.cmake
+[26.416s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/share/perception/package.xml
+[26.416s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/talker
+[26.419s] -- Set runtime path of "/home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/talker" to ""
+[26.419s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/listener
+[26.424s] -- Set runtime path of "/home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/listener" to ""
+[26.424s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/voxelros
+[26.430s] -- Set runtime path of "/home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/voxelros" to ""
+[26.430s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/lidarcluster
+[26.436s] -- Set runtime path of "/home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/lidarcluster" to ""
+[26.436s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/clusterros
+[26.442s] -- Set runtime path of "/home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/clusterros" to ""
+[26.442s] -- Installing: /home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/cpp_code
+[26.443s] -- Set runtime path of "/home/guildstudent/akash_ws/src/perception/install/perception/lib/perception/cpp_code" to ""
+[26.450s] Invoked command in '/home/guildstudent/akash_ws/src/perception/build/perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/guildstudent/.local/bin/cmake --install /home/guildstudent/akash_ws/src/perception/build/perception
